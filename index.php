@@ -55,9 +55,9 @@ if (array_key_exists('assign', $_REQUEST)) {
       }
    }
    if (array_key_exists('displayday', $_REQUEST)) {
-      header("Location: /chores/?displayday=" . $displayday->format('Y-m-d'));
+      header("Location: index.php?displayday=" . $displayday->format('Y-m-d'));
    } else {
-      header("Location: /chores");
+      header("Location: index.php");
    }
 }
 
