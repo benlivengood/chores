@@ -1,0 +1,79 @@
+table.cal {
+    background: #9090ff;
+    border: .25em solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.cal th {
+    width: 12.5%;
+    height: 4em;
+    border: .25em solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+table.cal td {
+    background: white;
+    border: .25em solid black;
+    color: white;
+    text-align: center;
+}
+
+table.cal td div {
+    height: 100%;
+    width: 100%;
+}
+
+table.cal td.undone {
+    background: red;
+}
+
+table.cal td.done {
+    background: green;
+}
+
+table.cal th corner {
+    background: yellow;
+}
+
+table.cal th div.left {
+    text-align: left;
+    float: left;
+}
+
+table.cal th div.right {
+    text-align: right;
+}
+
+table.cal td.chore {
+    background: yellow;
+    color: black;
+    font-size: 1.1em;
+}
+
+table.pay {
+    background: white;
+    border: .25em solid blue;
+    border-collapse: collapse;
+}
+
+table.pay th {
+    font-size: larger;
+    color: green;
+    border: .25em solid blue;
+    padding: .3em;
+}
+
+table.pay td {
+    font-size: large;
+    color: black;
+    border: .25em solid blue;
+    padding: .3em;
+}
+
+table.pay td.num {
+    text-align: right;
+}
